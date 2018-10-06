@@ -47,3 +47,34 @@ ul.posts li {
     margin-right: auto;
 
 } */
+.btn-group button {
+    background-color:  #FFCD11;
+    /* Green background */
+    border: 1px solid darkgray;
+    /* Green border */
+    color: black;
+    /* White text */
+    padding: 7px 16px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+    font-size: 12px;
+    width: 100px;
+}
+.gray{
+    background-color:  darkgray;
+}
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
