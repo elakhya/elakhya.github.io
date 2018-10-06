@@ -58,7 +58,7 @@ ul.posts li {
     /* Some padding */
     cursor: pointer;
     /* Pointer/hand icon */
-    float: middle;
+    float: left;
     /* Float the buttons side by side */
     font-size: 12px;
     width: 100px;
